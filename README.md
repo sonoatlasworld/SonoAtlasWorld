@@ -4,16 +4,16 @@
 
 [Explore the project](https://sonoatlasworld.github.io/SonoAtlasWorld/)
 
-[Zheyuan Zhang](https://openreview.net/profile?id=~Zheyuan_Zhang1)¹,
-[Boris Mailhe](https://openreview.net/profile?id=~Boris_Mailhe1)¹,
-[Hang Yu](https://openreview.net/profile?id=~Hang_Yu16)¹,
-[Yikang Liu](https://openreview.net/profile?id=~Yikang_Liu1)¹,
-[Xiao Chen](https://openreview.net/profile?id=~Xiao_Chen12)¹,
-[Ankush Mukherjee](https://openreview.net/profile?id=~Ankush_Mukherjee1)¹,
-[Terrence Chen](https://openreview.net/profile?id=~Terrence_Chen4)¹,
-[Shanhui Sun](https://openreview.net/profile?id=~Shanhui_Sun2)¹
+[Zheyuan Zhang](https://openreview.net/profile?id=~Zheyuan_Zhang1),
+[Boris Mailhe](https://openreview.net/profile?id=~Boris_Mailhe1),
+[Hang Yu](https://openreview.net/profile?id=~Hang_Yu16),
+[Yikang Liu](https://openreview.net/profile?id=~Yikang_Liu1),
+[Xiao Chen](https://openreview.net/profile?id=~Xiao_Chen12),
+[Ankush Mukherjee](https://openreview.net/profile?id=~Ankush_Mukherjee1),
+[Terrence Chen](https://openreview.net/profile?id=~Terrence_Chen4),
+[Shanhui Sun](https://openreview.net/profile?id=~Shanhui_Sun2)
 
-¹ **United Imaging Intelligence** · [uii-ai.com](https://uii-ai.com)
+**United Imaging Intelligence** · [uii-ai.com](https://uii-ai.com)
 
 SonoAtlasWorld connects probe actions to generated ultrasound observations through a persistent 3D anatomical state, supporting controllable scanning, scalable demonstration generation and repeatable policy evaluation in simulation.
 
