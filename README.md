@@ -13,7 +13,7 @@
 [Terrence Chen](https://openreview.net/profile?id=~Terrence_Chen4),
 [Shanhui Sun](https://openreview.net/profile?id=~Shanhui_Sun2)
 
-**United Imaging Intelligence** · [uii-ai.com](https://uii-ai.com)
+**United Imaging Intelligence** · [uii-ai.com](https://www.uii-ai.com/)
 
 SonoAtlasWorld connects probe actions to generated ultrasound observations through a persistent 3D anatomical state, supporting controllable scanning, scalable demonstration generation and repeatable policy evaluation in simulation.
 

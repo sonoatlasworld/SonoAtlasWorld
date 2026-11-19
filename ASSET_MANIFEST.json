@@ -1,8 +1,8 @@
 {
   "files": {
     "index.html": {
-      "bytes": 89154,
-      "sha256": "811aa38a52d4a9adbc6542f15aea932fb83c7ce258104e5e1fba533843359bbf"
+      "bytes": 89159,
+      "sha256": "daf26ef564cf0f9f8aa07229e94c63962beaf88e89b4eb09d4182072897c3ff7"
     },
     ".nojekyll": {
       "bytes": 0,
@@ -13,8 +13,8 @@
       "sha256": "d1471e55515704179dd76fc4930c4a509baf1b46ea446e0fd0e89ea93446d01d"
     },
     "README.md": {
-      "bytes": 2626,
-      "sha256": "30f194d5df759adaf3beb7ea46de71d85c7d73d860da55330ffa3c204a486b20"
+      "bytes": 2631,
+      "sha256": "85d1d574bd5e5e238e5d3acee0d6ccb84f73d0f64f5ae6f833edd14a9e84a566"
     },
     "assets/images/cover.webp": {
       "bytes": 121532,
