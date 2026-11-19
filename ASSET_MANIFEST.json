@@ -1,8 +1,8 @@
 {
   "files": {
     "index.html": {
-      "bytes": 89145,
-      "sha256": "5e8ec67e0c5a2e4e18326152f684eda77a78857e8e4df16cfba72ffcaa869706"
+      "bytes": 87314,
+      "sha256": "69fbc0b8e59e8be4349e17c1486f18e0fd34383a460b39ad264c414f99c2684e"
     },
     ".nojekyll": {
       "bytes": 0,
@@ -55,10 +55,6 @@
     "assets/images/method_ultraworld.webp": {
       "bytes": 17688,
       "sha256": "4d6fe2c9b4b7d87dea0ddb391b21d725d78ede41fda8caac2a287cf260104d6c"
-    },
-    "assets/images/nvidia_native_optix_liver_sweep.webp": {
-      "bytes": 53538,
-      "sha256": "dd43579b327fb981028f3fc2d0fb9e12397513520471ecf0a94a8ef2320578e6"
     },
     "assets/images/policy-scaling.webp": {
       "bytes": 52336,
@@ -139,10 +135,6 @@
     "assets/videos/method_ultraworld.mp4": {
       "bytes": 1024249,
       "sha256": "7ce6f3f71a425633411d46c63cee257a2db6093b5e352007062bed466196f725"
-    },
-    "assets/videos/nvidia_native_optix_liver_sweep.mp4": {
-      "bytes": 8926171,
-      "sha256": "540157afc7e4308a8070d2bb8525c4a7a37e3edf17c30498c32b17aea947f363"
     },
     "assets/videos/traj_branch_A_fan.mp4": {
       "bytes": 1640826,
