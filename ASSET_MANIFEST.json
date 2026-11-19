@@ -1,8 +1,8 @@
 {
   "files": {
     "index.html": {
-      "bytes": 77050,
-      "sha256": "8e1e248946a6e228379f006863f659ef927e4b17feccb29142b778d3fdd910bf"
+      "bytes": 85845,
+      "sha256": "be590a0c5ce9e33ee0839f79286be49912528839202d56a0da1d4af01c1fba46"
     },
     ".nojekyll": {
       "bytes": 0,
@@ -35,6 +35,30 @@
     "assets/images/method.webp": {
       "bytes": 122284,
       "sha256": "b2d0123b3aafc47dc9eb7064703a8328c2f591e55536975bdabf283793b63dd9"
+    },
+    "assets/images/method_prefix.webp": {
+      "bytes": 10092,
+      "sha256": "6ba03f8f113b943965c9290e0c52c8376e9e5316f03afa8817c65ac9d0bb5834"
+    },
+    "assets/images/method_sonoatlasworld.webp": {
+      "bytes": 10012,
+      "sha256": "6e62c2f57536d04c837a4c4be2b59ce0046ad344929c245b3fed5caffc21d0bb"
+    },
+    "assets/images/method_sonogym.webp": {
+      "bytes": 13508,
+      "sha256": "b8282fc26ff817b718f0c39d40c10b3ca89bb998b080a83bfdcb212f28d7891f"
+    },
+    "assets/images/method_sonoworld.webp": {
+      "bytes": 17322,
+      "sha256": "c796bea14e9b9b51041a4e24f8b03acab90b51801264ce973ac97105a43d1acd"
+    },
+    "assets/images/method_ultraworld.webp": {
+      "bytes": 17688,
+      "sha256": "4d6fe2c9b4b7d87dea0ddb391b21d725d78ede41fda8caac2a287cf260104d6c"
+    },
+    "assets/images/nvidia_native_optix_liver_sweep.webp": {
+      "bytes": 53538,
+      "sha256": "dd43579b327fb981028f3fc2d0fb9e12397513520471ecf0a94a8ef2320578e6"
     },
     "assets/images/policy-scaling.webp": {
       "bytes": 52336,
@@ -84,10 +108,6 @@
       "bytes": 24858,
       "sha256": "c6a427d0127d0825408bcdc31af29e827b0350a496b4eb8ddc6f02da4afb04c5"
     },
-    "assets/images/traj_methods_BDMAP_00000745_H_wide.webp": {
-      "bytes": 97014,
-      "sha256": "719897d3eee953844f8af3e9fd2ffb315b923f459bfa0c02dc2db254452a6ce8"
-    },
     "assets/images/uscan_icon.png": {
       "bytes": 44271,
       "sha256": "4494c83187f4f385f21a0e1fe39efc12cfe3da6c8b16a8a142376b9b9b6c4155"
@@ -99,6 +119,30 @@
     "assets/videos/gui_policy_demo_FHH_BDMAP_00000745.mp4": {
       "bytes": 1621649,
       "sha256": "2924a26f50bac30d3bd215d1084bbc5edf34b50560ff25792bfd4967969f542f"
+    },
+    "assets/videos/method_prefix.mp4": {
+      "bytes": 724177,
+      "sha256": "54b0a19af1baf9a436d30eaad84492d285bb389002a78dc7326686e2e736e88f"
+    },
+    "assets/videos/method_sonoatlasworld.mp4": {
+      "bytes": 724840,
+      "sha256": "7c851033cd0ac43f54789eafcc1563349ddb347835fbe8a32cac6732b21acffc"
+    },
+    "assets/videos/method_sonogym.mp4": {
+      "bytes": 872902,
+      "sha256": "b7956489925a7cad6142ab2a443401e0a884303780a73570736a09d72b1452aa"
+    },
+    "assets/videos/method_sonoworld.mp4": {
+      "bytes": 974093,
+      "sha256": "cc631025641c73a067c77fccfebc8dc8bd5b6e45686206973a640bd763b53d84"
+    },
+    "assets/videos/method_ultraworld.mp4": {
+      "bytes": 1024249,
+      "sha256": "7ce6f3f71a425633411d46c63cee257a2db6093b5e352007062bed466196f725"
+    },
+    "assets/videos/nvidia_native_optix_liver_sweep.mp4": {
+      "bytes": 8926171,
+      "sha256": "540157afc7e4308a8070d2bb8525c4a7a37e3edf17c30498c32b17aea947f363"
     },
     "assets/videos/traj_branch_A_fan.mp4": {
       "bytes": 1640826,
@@ -139,10 +183,6 @@
     "assets/videos/traj_events_shh.mp4": {
       "bytes": 1834043,
       "sha256": "571322230792dca93532d49b78da4239cea02502935f71359695cd1237384002"
-    },
-    "assets/videos/traj_methods_BDMAP_00000745_H_wide.mp4": {
-      "bytes": 5283015,
-      "sha256": "72765bdc313953e1e7c42bc9d8b8043f37ae7b77a677e5214467ab34e2abbbf9"
     }
   }
 }
