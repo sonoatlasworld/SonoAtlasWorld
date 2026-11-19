@@ -1,61 +1,29 @@
-# SonoAtlasWorld project page
+# SonoAtlasWorld
 
-Ready-to-publish static website. No build step, server backend, CDN, model weights,
-Python environment or external data mount is required in production.
+**Anatomy-Grounded Ultrasound World Models for Wide-Range Scanning.**
 
-## Files
+[Explore the project](https://sonoatlasworld.github.io/SonoAtlasWorld/)
 
-```text
-index.html          Page with embedded CSS and JavaScript
-assets/images/      Paper figures, video poster frames and favicon
-assets/videos/      All 13 demo and comparison videos used by this page
-.nojekyll           Serve the files directly without Jekyll processing
-ASSET_MANIFEST.json File sizes and SHA-256 checksums
-README.md           Deployment and editing instructions
-```
+SonoAtlasWorld connects probe actions to generated ultrasound observations through a persistent 3D anatomical state, supporting controllable scanning, scalable demonstration generation and repeatable policy evaluation in simulation.
 
-Only current page assets are included. Paper PDFs, unused demos, training data,
-checkpoints, old media and internal QA files are excluded.
+## Anatomy as state
 
-## Set the paper link
+A CT-derived anatomical asset defines the scene. Probe pose determines the anatomy and acoustic visibility presented to a causal ultrasound generator trained on clinical videos. Anatomy-conditioned pretraining, causal conversion and long-rollout alignment support wide-range scans and repeated visits to the same structures.
 
-Both **Read the paper** and **Research paper** currently link to the explicit
-placeholder `https://arxiv.org/abs/REPLACE_WITH_ARXIV_ID`.
-This is not a real paper URL yet. Replace both occurrences in `index.html` with
-the final arXiv abstract URL. Also update the resource subtitle
-`arXiv · Link coming soon` when the paper is available.
-There is no bundled or embedded paper PDF.
+## What the world model enables
 
-## Deploy to GitHub Pages
+- **Interactive scanning:** manually move the probe and observe changes in ultrasound appearance.
+- **Action-controlled generation:** explore translations, angular sweeps, rib occlusion and gas shadowing.
+- **Scanning experience at scale:** generate demonstrations across anatomies and starting poses for policy learning.
+- **Closed-loop evaluation:** let a goal-conditioned diffusion policy act in the frozen world model on unseen anatomies.
+- **Anatomical validation:** reconstruct generated structures at known poses and compare them with the 3D reference.
 
-1. Create a GitHub repository, for example `SonoAtlasWorld`.
-2. Copy the **contents** of this folder into the repository root, preserving the
-   `assets/` hierarchy and `.nojekyll`. Do not place this entire folder one level
-   below the repository root. Commit and push to `main`.
-3. In **Settings → Pages → Build and deployment**, set **Source** to
-   **Deploy from a branch**, choose **main** and **/(root)**, then **Save**.
-4. The project site will be served at
-   `https://YOUR_USERNAME.github.io/SonoAtlasWorld/`.
-   A repository named `YOUR_USERNAME.github.io` instead uses
-   `https://YOUR_USERNAME.github.io/`.
+## Research highlights
 
-All media paths are relative, so both root and repository-subdirectory hosting
-work. No domain-specific base URL needs to be edited.
+The work uses an **82,158-clip clinical ultrasound corpus** and **493 3D anatomical assets**, with anatomical validation on **40 held-out volumes**. Long-rollout alignment reduces brightness drift by **3.46×** after 40 repeated scan cycles. The project page brings together the method, research figures, quantitative results and interactive video demonstrations.
 
-Official deployment guide:
-https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+The current results establish generation and policy evaluation in simulation; clinical transfer and physical robotic scanning require further validation.
 
-## Local preview and editing
+## Paper
 
-From this folder, run `python3 -m http.server 8000`, then open
-`http://localhost:8000/`. You can also open `index.html` directly.
-
-Edit `index.html` for text, CSS and JavaScript, or replace media while preserving
-filenames. The videos are browser-compatible MP4 files and their matching poster
-images are in `assets/images/`. The page uses no external fonts or runtime APIs.
-
-The source generator remains in the original workspace at
-`output/sonoatlasworld_project/build.py`; after regenerating it, run
-`python3 output/sonoatlasworld_project/package_github_pages.py` to refresh this
-deployment folder and ZIP. Re-exporting replaces matching files in this folder,
-so keep any direct edits in your GitHub repository or apply them to the generator.
+The arXiv link will be added when available. The project page currently uses an explicit placeholder; no paper PDF is bundled in this repository.

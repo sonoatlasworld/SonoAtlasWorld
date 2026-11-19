@@ -1,8 +1,8 @@
 {
   "files": {
     "index.html": {
-      "bytes": 77080,
-      "sha256": "0acd45a717e2b447e8b72125860368fbfa2962aef1982a0b932881955f3602dd"
+      "bytes": 77050,
+      "sha256": "8e1e248946a6e228379f006863f659ef927e4b17feccb29142b778d3fdd910bf"
     },
     ".nojekyll": {
       "bytes": 0,
@@ -13,16 +13,12 @@
       "sha256": "d1471e55515704179dd76fc4930c4a509baf1b46ea446e0fd0e89ea93446d01d"
     },
     "README.md": {
-      "bytes": 2845,
-      "sha256": "e3d7e22646793698fac897b0467c962c8352d9b93b4571fd3ac83c08153846c7"
+      "bytes": 2037,
+      "sha256": "edc97c370e6679b65de1eabec8512d3635d6e01a7cecd3288a7501bc33d7d820"
     },
     "assets/images/cover.webp": {
       "bytes": 121532,
       "sha256": "21b42df5bc4a886dac9ef78b168f17fa42b53eebf0a9ab6a72ae661b994ecb9f"
-    },
-    "assets/images/favicon.svg": {
-      "bytes": 313,
-      "sha256": "a34232a3e8bea15bfea3a747823e31d0f302a4523ef528282d89099593795883"
     },
     "assets/images/gui_manual_scan_BDMAP_00000745.webp": {
       "bytes": 126536,
@@ -91,6 +87,10 @@
     "assets/images/traj_methods_BDMAP_00000745_H_wide.webp": {
       "bytes": 97014,
       "sha256": "719897d3eee953844f8af3e9fd2ffb315b923f459bfa0c02dc2db254452a6ce8"
+    },
+    "assets/images/uscan_icon.png": {
+      "bytes": 44271,
+      "sha256": "4494c83187f4f385f21a0e1fe39efc12cfe3da6c8b16a8a142376b9b9b6c4155"
     },
     "assets/videos/gui_manual_scan_BDMAP_00000745.mp4": {
       "bytes": 4439786,
